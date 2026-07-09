@@ -68,8 +68,8 @@ The project uses the Telco Customer Churn dataset (`churn-bigml-80.csv`) contain
 ## Project Structure
 
 ```
-task_1_level 1/
-├── task1_data_preprocessing.ipynb    # Main preprocessing notebook
+data-preprocessing/
+├── data_preprocessing.ipynb          # Main preprocessing notebook
 ├── check_missing_data.py             # Utility script for missing data analysis
 ├── churn-bigml-80.csv                # Original dataset
 ├── train_data_preprocessed.csv       # Processed training data
@@ -88,7 +88,7 @@ pip install pandas numpy scikit-learn
 
 2. Open the Jupyter notebook:
 ```bash
-jupyter notebook task1_data_preprocessing.ipynb
+jupyter notebook data_preprocessing.ipynb
 ```
 
 3. Execute all cells sequentially to run the preprocessing pipeline
